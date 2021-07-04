@@ -11,6 +11,24 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
+<style>
+    .cardWrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        padding: 1rem;
+        margin: 10px;
+        max-width: 250px;
+        box-shadow: 0 10px 28px rgb(0 0 0 / 8%);
+    }
+    .card:hover {
+        box-shadow: 0 1px 1px 0 rgb(90 122 190 / 10%), 0 10px 20px 0 rgb(90 122 190 / 20%);
+        transform: translatey(-4px);
+        transition: all .2s ease;
+    }
+</style>
+
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header">
@@ -64,6 +82,63 @@
                                     alt="Hero media">
                                 <img class="hero-media-image asset-dark" src="dist/images/project-dark.svg"
                                     alt="Hero media">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta section">
+                <div class="container">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Some intersting projects from the factory!</h2>
+                            <p class="section-paragraph">All the projects below are open source & volunteered for growing together</p>
+                            <div class="cardWrapper">
+                                <div class="card">
+                                    <h3>ISC media cum foundation</h3>
+                                    <p>Core contributor - <a href='https://github.com/Harinath-2000' target="_blank">HARINATH C</a></p>
+                                    <a href="http://iscmediacumfoundation.netlify.app/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Glass e-commerce website</h3>
+                                    <p>Core contributor - <a href='https://github.com/bhavanisathish' target="_blank">Bavani</a></p>
+                                    <a href="https://acgcet.github.io/Glasswebiste_bhavani/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Food ordering app UI</h3>
+                                    <p>Core contributor - <a href='https://github.com/Saravanakumarke' target="_blank">SARAVANA KUMAR</a></p>
+                                    <a href="https://glenz-foods.netlify.app/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>JS interview codebook</h3>
+                                    <p>Core contributor - <a href='https://github.com/Saravanakumarke' target="_blank">SARAVANA KUMAR</a></p>
+                                    <a href="https://github.com/ACGCET/JS-interview-codebook" target="_blank">Access repo</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Simple React CURD app</h3>
+                                    <p>Core contributor - <a href='https://github.com/Saravanakumarke' target="_blank">SARAVANA KUMAR</a></p>
+                                    <a href="https://crud-table.netlify.app/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Github Labels challenge</h3>
+                                    <p>Core contributor - <a href='https://github.com/Marigameo/' target="_blank">MARIAPPAN S</a></p>
+                                    <a href="https://github-label-challenge.netlify.app/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Notion frontend challenge</h3>
+                                    <p>Core contributor - <a href='https://github.com/Marigameo/' target="_blank">MARIAPPAN S</a></p>
+                                    <a href="https://youruni.netlify.app/" target="_blank">View project</a>
+                                </div>
+                                <div class="card">
+                                    <h3>Glenz custom components</h3>
+                                    <p>Core contributor - <a href='https://github.com/Saravanakumarke' target="_blank">SARAVANA KUMAR</a></p>
+                                    <a href="https://github.com/ACGCET/glenz-components" target="_blank">Access repo</a>
+                                </div>
+                            </div>
+                            <div class="cta-cta" style="margin-top: 1.8rem;">
+                                <a class="button button-primary" href="https://github.com/ACGCET" target="_blank">View
+                                    all projects</a>
                             </div>
                         </div>
                     </div>
